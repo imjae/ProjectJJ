@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*@import url('font.css'); *//* 폰트를 정의하는 스타일시트 */
+/*@import url('layout.css');*/ /* 레이아웃을 정의하는 스타일시트 */
+/*@import url('style.css');*/ /* 전체적인 스타일을 정의하는 기본 속성의 스타일시트 */
+/*@import url('http://fonts.googleapis.com/earlyaccess/notosanssc.css');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900';*/
+/*@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700';*/
+@import url(http://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css);
+
+*{margin: 0; padding: 0; border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+	color:#191919;
+	/*letter-spacing:-0.5px;*/
+	/*line-height:1.6;
+	font-weight:300;*/
+}
+html{height: 100%; min-width: 320px; overflow-y: auto; overflow-x: hidden}
+body{margin-top: 0 !important; min-width: 320px; width: 100%; height: 100%; /*color: #555;*/ font-size: 15px; font-family: 'Nanum Barun Gothic', sans-serif; word-break: break-all; word-wrap: break-word; word-break: keep-all}
+/*h1, h2, h3, h4, h5, h6 { font-family: sans-serif;}*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, th, td, p, button{-webkit-text-size-adjust: none}
+fieldset, img, abbr, acronym{border: 0 none}
+legend{position: absolute; height: 0; line-height: 0; font-size: 0; overflow: hidden}
+legend.showlegend {position: static; line-height: 14px; font-size: 12px; overflow: visible}
+address, caption, cite, code, dfn, em, var {font-style: normal; font-weight: normal}
+ol, ul{list-style: none}
+q:before, q:after{content:''}
+table{border-collapse: collapse; border-spacing: 0}
+caption{height: 0; line-height: 0; font-size: 0; overflow: hidden; text-indent: -10000px}
+hr{display: none;}
+a{ color: #777; text-decoration: none; cursor: pointer; outline: none; font-size: 15px}
+button {border: 0 none; background: none; outline: none; font-family: 'Nanum Barun Gothic', sans-serif}
+button::-moz-focus-inner,input::-moz-focus-inner {border: 0; padding: 0;}
+button, input, select, textarea{ color: #555; line-height: 19px; font-size: 15px; /*font-family: 'NeuzeitSLTStd', 'Noto Sans SC', sans-serif;*/ vertical-align: middle;}
+select{ -webkit-border-radius: 0;}
+textarea{overflow: auto; resize: none; font-size: 13px}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"]{cursor: pointer; overflow: visible; -webkit-appearance: button;}
+
+input[type="checkbox"],
+input[type="radio"] {min-width: 14px; min-height: 14px; line-height: 14px; box-sizing: border-box; -webkit-border-radius: 0;}
+input[type="search"]{-webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box;}
+input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+
+input::-webkit-input-placeholder{color:#555;}
+input:-moz-input-placeholder{color:#555;}
+input::-moz-input-placeholder{color:#555;}
+input:-ms-input-placeholder{color:#555;}
+img{ max-width: 100%; vertical-align: top; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, object {display: block; margin: 0; padding: 0;}
+audio[controls], canvas, video{display: inline-block; *display: inline; *zoom: 1;}
+
+/* Disable orange highlight */
+label, a, button{-o-tap-highlight-color:rgba(0, 0, 0, 0);-ms-tap-highlight-color:rgba(0, 0, 0, 0);-moz-tap-highlight-color:rgba(0, 0, 0, 0);-webkit-tap-highlight-color:rgba(0, 0, 0, 0); cursor: pointer}
+
+/* global */
+.none{display:none;}
+.hidden{position: absolute; top: 0; left: -9999px; width: 0; height: 0; font-size: 0; line-height: 0; text-indent: -9999px; overflow: hidden;}
+.fl{float:left;}
+.fr{float:right;}
+.left{text-align:left !important;}
+.center{text-align:center !important;}
+.right{text-align:right !important;}
+.block{display:block;}
+.inblock{display:inline-block;}
+.cf:after{content:""; display:block; clear:both;}
+.ellipsis{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.bold{font-weight: bold; }
+.n_border{border: none !important}
+.n_margin{margin: 0 !important}
+.border_r{border-right: 1px solid #ccc}
+.border_bottom{border-bottom: 1px solid #ccc}
+.border_top{border-top: 1px solid #ccc}
+.border_right{border-right: 1px solid #ccc}
