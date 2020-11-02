@@ -1,11 +1,13 @@
-import Header from "routes/Header";
+import Header from "components/Header";
+import Body from "./Body";
+import Footer from "./Footer";
 
 function App() {
   return (
     <>
       <Header />
-      <body></body>
-      <footer></footer>
+      <Body />
+      <Footer />
     </>
   );
 }
