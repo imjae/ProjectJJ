@@ -1,6 +1,12 @@
+import Header from "routes/Header";
+
 function App() {
   return (
-      <h1>Hello, world!</h1>
+    <>
+      <Header />
+      <body></body>
+      <footer></footer>
+    </>
   );
 }
 
