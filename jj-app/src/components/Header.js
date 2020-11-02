@@ -3,13 +3,14 @@ import Logo from "./header/Logo";
 import Search from "./header/Search";
 import Auth from "./header/Auth";
 
-function Header({isLogged}) {
-
+function Header({ isLogged }) {
   return (
     <>
-      <Logo />
-      <Search />
-      <Auth />
+      <header>
+        <Logo />
+        <Search />
+        <Auth />
+      </header>
     </>
   );
 }
