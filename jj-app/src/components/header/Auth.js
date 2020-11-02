@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Auth() {
   // 로그인이 된 상태를 나타내는 state
-  const [isLogged, setIsLogged] = useState(true);
+  const [isLogged, setIsLogged] = useState(false);
 
   return (
     <>
